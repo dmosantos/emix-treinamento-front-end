@@ -1,0 +1,53 @@
+/*
+:: Cores ::
+#00bdb6 - Verde
+#eae26d - Amarelo
+*/
+
+* {
+	box-sizing: border-box;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+
+/* App Header */
+#app-header {
+	align-items: center;
+	background: #00bdb6;
+	display: flex;
+	padding: 0 10px;
+}
+#app-header img {
+	height: 20px;
+}
+#app-header p {
+}
+#app-header nav {
+	display: flex;
+	justify-content: flex-end;
+	flex-grow: 1;
+}
+#app-header nav a {
+	border-right: 1px solid #fff;
+	padding: 10px;
+}
+#app-header nav a:first-child {
+	border-left: 1px solid #fff;
+}
+#app-header nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+
+article {
+	clear: left;
+}
+article img {
+	float: left;
+	width: 300px;
+}
+#imagem2 {
+	float: right;
+}
